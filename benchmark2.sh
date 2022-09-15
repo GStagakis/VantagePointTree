@@ -18,5 +18,5 @@ echo > thresh_output.txt
 
 for i in 2 4 8 16 32 64 128 256
 do
-    ./main 65536 $i 2 >> thresh_output.txt
+    ./main 65536 $i 2 12000 >> thresh_output.txt
 done
